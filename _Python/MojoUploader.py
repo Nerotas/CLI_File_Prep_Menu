@@ -41,8 +41,8 @@ if SPEED == "":
 
 # The credientials for logging into iTunes Transporter
 
-USER = "upload@mojomakers.com"
-PASSWORD = "1990Mojo"
+USER = "user"
+PASSWORD = "password"
 
 #Below reads the file path to gather the name of the asset and the provider. It is based off of the grid naming conventions. It also determines the TYPE (FEATURE OR MUSIC VIDEO) to allow the script to create a proper location for a log.
 

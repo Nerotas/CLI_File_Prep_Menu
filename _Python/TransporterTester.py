@@ -30,8 +30,8 @@ SPEED = "10000"
 SIZE = "1G"
 # The credientials for logging into iTunes Transporter
 
-USER = "upload@mojomakers.com"
-PASSWORD = "1990Mojo"
+USER = "user"
+PASSWORD = "password"
 
 now = datetime.now()
 
