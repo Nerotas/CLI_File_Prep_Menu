@@ -1,0 +1,8 @@
+sudo mkdir /Library/Preferences/Xsan/
+sudo cp /${DataSource}/5_QC/_TechsFolders/NJE/_TechStuff/Xsan/* /Library/Preferences/Xsan/
+sudo launchctl stop /System/Library/LaunchDaemons/com.apple.xsan.plist
+sudo launchctl start /System/Library/LaunchDaemons/com.apple.xsan.plist
+sudo launchctl unload /System/Library/LaunchDaemons/com.apple.xsan.plist
+sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.xsan.plist
+sudo xsanctl unmount Archive
+sudo xsanctl mount Archive --ro
